@@ -23,6 +23,37 @@
 <img alt="Downloads" src="https://img.shields.io/github/downloads/etemesaysarac/The-Simon-Game-Easyso-Version/total" />
 </a>
   <img alt="Build" src="https://img.shields.io/badge/build-passing-success">
+  <a href="https://etemesaysarac.github.io/The-Simon-Game-Easyso-Version">
+<img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fetemesaysarac.github.io%2FThe-Simon-Game-Easyso-Version" />
+</a>
+&nbsp;&nbsp;&nbsp;
+<!-- Tech badges -->
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+<img alt="HTML5" src="https://img.shields.io/badge/HTML5-%3E%3D5-orange?logo=html5&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&logoColor=black" />
+</a>
+&nbsp;
+<a href="https://www.json.org/json-en.html">
+<img alt="JSON" src="https://img.shields.io/badge/JSON-Data-brightgreen?logo=JSON" />
+</a>
+&nbsp;
+<a href="https://jquery.com/">
+<img alt="jQuery" src="https://img.shields.io/badge/jQuery-3.x-0769AD?logo=jquery&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://fonts.google.com/specimen/Press+Start+2P">
+<img alt="Press Start 2P" src="https://img.shields.io/badge/Font-PressStart2P-lightgrey" />
+</a>
+</p>
+
+<p align="center">Learn more:
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML (MDN)</a> ·
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript (MDN)</a> ·
+<a href="https://www.json.org/json-en.html">JSON</a> ·
+<a href="https://jquery.com/">jQuery</a>
 </p>
 
 <p align="center">
