@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <title>EASYSO Simon Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+  <!-- Start Screen -->
+  <section id="start-screen" class="screen bg-cover" style="background-image: url('assets/image.jpeg');">
+    <header class="brand">
+      <img src="assets/logo.png" alt="EASYSO Logo" class="logo" />
+      <h1 class="game-title">Simon Game</h1>
+    </header>
+
+    <div class="start-layout">
+      <!-- Left: How to Play -->
+      <article id="how-panel" class="panel">
+        <h2 id="how-title">How to Play?</h2>
+        <p id="how-intro-1"></p>
+        <p id="how-intro-2"></p>
+
+        <h3 id="how-goal-title"></h3>
+        <ul class="bullets">
+          <li id="how-goal-1"></li>
+          <li id="how-goal-2"></li>
+          <li id="how-goal-3"></li>
+        </ul>
+
+        <h3 id="how-rules-title"></h3>
+        <ul class="bullets">
+          <li id="how-rule-1"></li>
+          <li id="how-rule-2"></li>
+          <li id="how-rule-3"></li>
+        </ul>
+
+        <h3 id="how-tips-title"></h3>
+        <ul class="bullets">
+          <li id="how-tip-1"></li>
+          <li id="how-tip-2"></li>
+        </ul>
+      </article>
+
+      <!-- Right: Settings + Leaderboard -->
+      <aside id="settings-panel" class="panel">
+        <div class="control">
+          <label for="player-name" id="player-label">Player Name:</label>
+          <input id="player-name" type="text" maxlength="20" placeholder="Your name" />
+        </div>
+
+        <div class="control">
+          <label for="lang" id="lang-label">Language:</label>
+          <select id="lang">
+            <option value="en" selected>English</option>
+            <option value="tr">Türkçe</option>
+            <option value="ar">العربية</option>
+            <option value="es">Español</option>
+            <option value="de">Deutsch</option>
+            <option value="fr">Français</option>
+          </select>
+        </div>
+
+        <div class="control">
+          <label for="difficulty" id="diff-label">Difficulty:</label>
+          <select id="difficulty">
+            <option value="normal" selected>Normal</option>
+            <option value="fast">Fast</option>
+            <option value="double">Double Flash</option>
+          </select>
+        </div>
+
+        <div class="control">
+          <label for="theme" id="theme-label">Theme:</label>
+          <select id="theme">
+            <option value="dark" selected>Dark</option>
+            <option value="light">Light</option>
+          </select>
+        </div>
+
+        <button id="start-btn" class="primary-btn">Start</button>
+
+        <section id="leaderboard" class="leaderboard">
+          <h3 id="lb-title">Top 5 Leaderboard</h3>
+          <ol id="lb-list" class="lb-list"></ol>
+        </section>
+      </aside>
+    </div>
+
+    <footer class="footer">
+      <span id="datetime-start"></span> | © 2025 EASYSO
+    </footer>
+  </section>
+
+  <!-- Game Screen -->
+  <section id="game-screen" class="screen hidden">
+    <header class="hud">
+      <img src="assets/logo.png" alt="EASYSO Logo" class="logo small" />
+      <h1 id="level-title">Level 0</h1>
+
+      <div id="scoreboard">
+        <span id="player-chip" class="badge">👤 —</span>
+        <span id="correct-count" class="badge ok">✔ 0</span>
+        <span id="wrong-count" class="badge fail">❌ 0</span>
+        <span id="high-score" class="badge">🏆 0</span>
+      </div>
+
+      <div class="hud-actions">
+        <button id="mute-btn" class="icon-btn" aria-label="Toggle sound" title="Toggle sound">🔊</button>
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme" title="Toggle theme">🌗</button>
+      </div>
+    </header>
+
+    <main class="stage">
+      <div class="grid">
+        <button id="green" class="btn green" aria-label="Green"></button>
+        <button id="red" class="btn red" aria-label="Red"></button>
+        <button id="yellow" class="btn yellow" aria-label="Yellow"></button>
+        <button id="blue" class="btn blue" aria-label="Blue"></button>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <span id="datetime-game"></span> | © 2025 EASYSO
+    </footer>
+  </section>
+
+  <!-- End Screen -->
+  <section id="end-screen" class="screen hidden">
+    <header class="brand">
+      <img src="assets/logo.png" alt="EASYSO Logo" class="logo" />
+    </header>
+
+    <h2 id="end-message"></h2>
+    <div class="end-actions">
+      <button id="retry-btn" class="primary-btn">Retry</button>
+      <button id="exit-btn" class="secondary-btn">Exit</button>
+    </div>
+
+    <footer class="footer">
+      <span id="datetime-end"></span> | © 2025 EASYSO
+    </footer>
+  </section>
+
+  <!-- Confetti overlay -->
+  <div id="confetti"></div>
+
+  <script src="game.js"></script>
+</body>
+</html>
