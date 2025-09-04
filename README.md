@@ -374,3 +374,4 @@ function playSound(name) {
 ## 🇹🇷 Türkçe Özet (TR)
 
 **Easyso Simon Game**, klasik Simon oyununu modern bir arayüzle sunar. 6 dil (Arapça RTL dâhil), karanlık/açık tema, Normal/Hızlı/Çift Flaş zorlukları, yerel liderlik tablosu ve mobil uyumluluk içerir. Tüm tercihler ve skorlar cihazda `localStorage` ile saklanır. Kurulum için depoyu klonlamak ve `index.html` dosyasını tarayıcıda açmak yeterlidir (ses için yerel sunucu önerilir). Görsel ve bağlantılarda göreli yollar kullanılmalıdır (`./assets/...`).
+
