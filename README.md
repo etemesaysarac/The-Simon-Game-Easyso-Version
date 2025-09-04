@@ -2,26 +2,26 @@
   <img src="./assets/logo.png" alt="Easyso Logo" width="120">
 </p>
 
-<h1 align="center">Easyso Simon Game (jQuery)</h1>
+<h1 align="center">The Simon Game Easyso Version</h1>
 
 <p align="center">
   A classic Simon memory game rebuilt with a modern, internationalized UI — dark/light themes, 6 languages, local leaderboard, and mobile-friendly controls.
   <br>
-  <a href="https://YOUR_DEMO_LINK">Live Demo</a> ·
-  <a href="https://github.com/USER/REPO/releases/latest">Latest Release</a> ·
+  <a href="https://etemesaysarac.github.io/The-Simon-Game-Easyso-Version">Live Demo</a> ·
+  <a href="https://github.com/etemesaysarac/The-Simon-Game-Easyso-Version">Latest Release</a> ·
   <a href="#-abstract">Docs</a> ·
   <a href="#-citation">Cite</a>
 </p>
 
 <p align="center">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-informational"></a>
-  <img alt="Release" src="https://img.shields.io/github/v/release/USER/REPO">
-  <img alt="Downloads" src="https://img.shields.io/github/downloads/USER/REPO/total">
+  <img alt="Release" src="https://github.com/etemesaysarac/The-Simon-Game-Easyso-Version">
+  <img alt="Downloads" src="https://github.com/etemesaysarac/The-Simon-Game-Easyso-Version/releases/latest">
   <img alt="Build" src="https://img.shields.io/badge/build-passing-success">
 </p>
 
 <p align="center">
-  <b>[EN]</b> · <a href="#-turkce-ozet-tr">[TR]</a>
+  <b></b> · <a href="https://github.com/etemesaysarac/The-Simon-Game-Easyso-Version/blob/main/README.md#%EF%B8%8F-architecture">[EN]</a> · 
 </p>
 
 ## 🔬 Abstract
@@ -49,7 +49,7 @@ This README documents the system design, core algorithms, evaluation setup, and 
 * [Game Guide](#-game-guide)
 * [Performance / Security / A11y](#-performance--security--a11y)
 * [Assets & Structure](#-assets--structure)
-* [Versioning & Roadmap](#-versioning--roadmap)
+* [Versioning](#-versioning--roadmap)
 * [Contributing](#-contributing)
 * [Citation](#-citation)
 * [License & Acknowledgments](#-license--acknowledgments)
@@ -280,13 +280,6 @@ python -m http.server 5500
 * **SemVer:** v1.0.0
 * See `CHANGELOG.md`
 
-**Roadmap**
-
-* [ ] Optional sound sprite for lower latency
-* [ ] PWA (offline install) & app icon
-* [ ] Score sharing (image export)
-* [ ] Unit tests for sequence / input checker
-
 ## 🤝 Contributing
 
 PRs are welcome! Please discuss major changes via an issue first and follow the style of existing code. Consider adding locale strings if you add new UI labels.
@@ -297,11 +290,11 @@ If you reference this project, please cite:
 
 ```bibtex
 @software{easyso_simon_2025,
-  title   = {Easyso Simon Game (jQuery)},
+  title   = {Easyso Simon Game},
   author  = {Etem Saraç},
   year    = {2025},
-  url     = {https://github.com/USER/REPO},
-  version = {v1.0.0}
+  url     = {https://github.com/etemesaysarac},
+  version = {v2.1.1}
 }
 ```
 
