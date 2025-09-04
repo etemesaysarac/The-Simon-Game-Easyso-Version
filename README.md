@@ -15,8 +15,13 @@
 
 <p align="center">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-informational"></a>
-  <img alt="Release" src="https://github.com/etemesaysarac/The-Simon-Game-Easyso-Version">
-  <img alt="Downloads" src="https://github.com/etemesaysarac/The-Simon-Game-Easyso-Version/releases/latest">
+  <a href="https://github.com/etemesaysarac/The-Simon-Game-Easyso-Version/releases/latest">
+<img alt="Release" src="https://img.shields.io/github/v/release/etemesaysarac/The-Simon-Game-Easyso-Version" />
+</a>
+&nbsp;
+<a href="https://github.com/etemesaysarac/The-Simon-Game-Easyso-Version/releases">
+<img alt="Downloads" src="https://img.shields.io/github/downloads/etemesaysarac/The-Simon-Game-Easyso-Version/total" />
+</a>
   <img alt="Build" src="https://img.shields.io/badge/build-passing-success">
 </p>
 
